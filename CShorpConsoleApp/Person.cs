@@ -8,6 +8,7 @@ namespace CShorpConsoleApp
 {
     class Person
     {
+        public string Surname { get; set; }
         public string Name { get; private set; }
         public DateTime BirthDate { get; private set; }
         public int DaysLived => (DateTime.Today - BirthDate).Days;
